@@ -1,0 +1,20 @@
+CREATE TABLE Deli_Items (id INTEGER PRIMARY KEY, Name TEXT, Item_Type TEXT, Brand TEXT, Price_Per_Pound INTEGER);
+
+INSERT INTO Deli_Items VALUES
+(1,"Bologna", "Meat", "Boar's Head", 4.99),
+(2,"American", "Cheese", "Dietz & Watson", 4.99),
+(3,"Munster", "Cheese", "Boar's Head", 5.99),
+(4,"Oven Roasted Turkey", "Meat", "Boar's Head", 7.99),
+(5,"Pepper Ham", "Meat", "Boar's Head", 8.49),
+(6,"Honey Ham", "Meat", "Hillshire Farm", 7.49),
+(7,"Provolone", "Cheese", "Boar's Head", 5.49),
+(8,"Mozzarella", "Cheese", "Hillshire Farm", 5.99),
+(9,"Swiss", "Cheese", "Boar's Head", 7.99),
+(10,"Roast Beef", "Meat", "Dietz & Watson", 13.49),
+(11,"Prosciutto", "Meat", "Boar's Head", 11.99),
+(12,"Hard Salami", "Meat", "Dietz & Watson", 7.99),
+(13,"Pastrami", "Meat", "Dietz & Watson", 8.99),
+(14,"Cheddar", "Cheese", "Boar's Head", 5.49),
+(15,"Smoked Gouda", "Cheese", "Dietz & Watson", 6.99);
+
+SELECT * FROM Deli_Items ORDER BY Price_Per_Pound desc
