@@ -1,0 +1,25 @@
+SELECT * 
+FROM BIT_DB.Spotifydata
+WHERE popularity>90
+
+SELECT * 
+FROM BIT_DB.Spotifydata
+WHERE artist_name="Bad Bunny"
+
+SELECT * 
+FROM BIT_DB.Spotifydata
+WHERE artist_name="Bad Bunny"
+AND popularity>90
+
+SELECT * 
+FROM BIT_DB.Spotifydata
+ORDER BY track_name
+
+SELECT * 
+FROM BIT_DB.Spotifydata
+ORDER BY track_name desc
+LIMIT 10
+
+SELECT artist_name, track_name, key 
+FROM BIT_DB.Spotifydata
+ORDER BY key
